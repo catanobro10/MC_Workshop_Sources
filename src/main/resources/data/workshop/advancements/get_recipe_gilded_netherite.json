@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "workshop:gilded_netherite_ingot_blast",
+      "workshop:gilded_netherite_ingot_furnace"
+    ]
+  },
+  "criteria": {
+    "get_brilliant_alloy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["workshop:brilliant_alloy"]
+          }
+        ]
+      }
+    }
+  }
+}

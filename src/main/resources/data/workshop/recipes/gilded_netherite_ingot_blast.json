@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "workshop:brilliant_alloy"
+  },
+  "result": "workshop:gilded_netherite_ingot",
+  "experience": 3,
+  "cookingtime": 100
+}

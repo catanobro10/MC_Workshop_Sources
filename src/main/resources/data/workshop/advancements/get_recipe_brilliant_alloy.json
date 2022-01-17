@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "workshop:brilliant_alloy"
+    ]
+  },
+  "criteria": {
+    "get_netherite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:netherite_ingot"]
+          }
+        ]
+      }
+    }
+  }
+}
