@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "workshop:brilliant_alloy",
+    "workshop:gilded_netherite_ingot",
+    "workshop:gilded_netherite_pickaxe",
+    "workshop:gilded_netherite_sword"
+  ]
+}
