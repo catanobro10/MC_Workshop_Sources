@@ -44,7 +44,7 @@ public class ItemInit {
     public static final ArmorMaterial GILDED_NETHERITE_ARMOR = new ArmorGildedNetherite();
 
     public static final Item GILDED_NETHERITE_HELMET =
-            new ArmorItem(GILDED_NETHERITE_ARMOR, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT).fireproof());
+            new ArmorItem(GILDED_NETHERITE_ARMOR, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT).fireproof().rarity(Rarity.RARE));
 
     public static void registerItems() {
         // Items
