@@ -1,12 +1,12 @@
 package net.workshop.init;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.SwordItem;
+import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
+import net.workshop.item.ArmorGildedNetherite;
 import net.workshop.item.PickaxeGildedNetheriteItem;
 import net.workshop.item.TierEmeraldItem;
 import net.workshop.item.TierGildedNetheriteItem;
@@ -40,6 +40,11 @@ public class ItemInit {
                     1,
                     -2.8F,
                     new Item.Settings().group(ItemGroup.TOOLS).rarity(Rarity.RARE).fireproof());
+    // Armor
+    public static final ArmorMaterial GILDED_NETHERITE_ARMOR = new ArmorGildedNetherite();
+
+    public static final Item GILDED_NETHERITE_HELMET =
+            new ArmorItem(GILDED_NETHERITE_ARMOR, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT).fireproof());
 
     public static void registerItems() {
         // Items
@@ -52,6 +57,9 @@ public class ItemInit {
 
         //Tools
         Registry.register(Registry.ITEM, new Identifier(main.MOD_NAME, "gilded_netherite_pickaxe"), GILDED_NETHERITE_PICKAXE);
+
+        //Armor
+        Registry.register(Registry.ITEM, new Identifier(main.MOD_NAME, "gilded_netherite_helmet"), GILDED_NETHERITE_HELMET);
 
     }
 
