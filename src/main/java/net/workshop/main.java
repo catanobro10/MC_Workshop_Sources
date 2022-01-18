@@ -5,7 +5,7 @@ import net.workshop.init.*;
 
 public class main implements ModInitializer {
 
-	public static final String modname = "workshop";
+	public static final String MOD_NAME = "workshop";
 
 	@Override
 	public void onInitialize() {

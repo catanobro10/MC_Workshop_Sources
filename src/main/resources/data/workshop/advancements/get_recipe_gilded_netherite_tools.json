@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "workshop:gilded_netherite_pickaxe",
+      "workshop:gilded_netherite_sword"
+    ]
+  },
+  "criteria": {
+    "get_gilded_netherite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["workshop:gilded_netherite_ingot"]
+          }
+        ]
+      }
+    }
+  }
+}

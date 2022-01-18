@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "workshop:emerald_sword"
+    ]
+  },
+  "criteria": {
+    "get_emerald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:emerald"]
+          }
+        ]
+      }
+    }
+  }
+}
