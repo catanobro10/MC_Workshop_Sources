@@ -3,14 +3,14 @@
   "id": "workshop",
   "version": "${version}",
 
-  "name": "Minecraft Fabric Modding Workshop 1",
-  "description": "Items, Recipes, and Tags",
+  "name": "Minecraft Fabric Modding Workshop 3",
+  "description": "Armor, Tags, & Mixins",
   "authors": [
     "catanobro10"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/catanobro10/MC_Workshop_Sources/tree/workshop3"
   },
 
   "license": "CC0-1.0",
