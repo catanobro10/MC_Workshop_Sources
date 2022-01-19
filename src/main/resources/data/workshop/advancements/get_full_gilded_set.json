@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether_armor",
+  "parent": "minecraft:nether/nether_armor",
   "display": {
     "title": {
       "translate": "workshop.advancements.get_full_gilded_set"

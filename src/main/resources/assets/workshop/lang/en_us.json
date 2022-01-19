@@ -12,6 +12,6 @@
 
   "item.workshop.emerald_sword": "Emerald Sword",
 
-  "workshop.advancement.get_full_gilded_set": "High Fashion",
-  "workshop.advancement.get_full_gilded_set.desc": "Obtain a full set of Gilded Netherite Armor"
+  "workshop.advancements.get_full_gilded_set": "High Fashion",
+  "workshop.advancements.get_full_gilded_set.desc": "Obtain a full set of Gilded Netherite Armor"
 }
