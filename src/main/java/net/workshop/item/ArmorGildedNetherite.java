@@ -41,11 +41,11 @@ public class ArmorGildedNetherite implements ArmorMaterial {
 
     @Override
     public float getToughness() {
-        return 2.0F;
+        return 3.0F;
     }
 
     @Override
     public float getKnockbackResistance() {
-        return 2.0F;
+        return 1.0F;
     }
 }
