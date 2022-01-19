@@ -14,8 +14,8 @@ public class ItemInit {
     public static final Item GILDED_NETHERITE_INGOT = new Item(new FabricItemSettings().group(ItemGroup.MISC).rarity(Rarity.RARE));
 
     public static void registerItems() {
-        Registry.register(Registry.ITEM, new Identifier(main.modname, "brilliant_alloy"), BRILLIANT_ALLOY);
-        Registry.register(Registry.ITEM, new Identifier(main.modname, "gilded_netherite_ingot"), GILDED_NETHERITE_INGOT);
+        Registry.register(Registry.ITEM, new Identifier(main.MOD_NAME, "brilliant_alloy"), BRILLIANT_ALLOY);
+        Registry.register(Registry.ITEM, new Identifier(main.MOD_NAME, "gilded_netherite_ingot"), GILDED_NETHERITE_INGOT);
     }
 
     public static void init() {
