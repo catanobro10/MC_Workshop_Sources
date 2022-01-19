@@ -45,6 +45,12 @@ public class ItemInit {
 
     public static final Item GILDED_NETHERITE_HELMET =
             new ArmorItem(GILDED_NETHERITE_ARMOR, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT).fireproof().rarity(Rarity.RARE));
+    public static final Item GILDED_NETHERITE_CHESTPLATE =
+            new ArmorItem(GILDED_NETHERITE_ARMOR, EquipmentSlot.CHEST, new Item.Settings().group(ItemGroup.COMBAT).fireproof().rarity(Rarity.RARE));
+    public static final Item GILDED_NETHERITE_LEGGINGS =
+            new ArmorItem(GILDED_NETHERITE_ARMOR, EquipmentSlot.LEGS, new Item.Settings().group(ItemGroup.COMBAT).fireproof().rarity(Rarity.RARE));
+    public static final Item GILDED_NETHERITE_BOOTS =
+            new ArmorItem(GILDED_NETHERITE_ARMOR, EquipmentSlot.FEET, new Item.Settings().group(ItemGroup.COMBAT).fireproof().rarity(Rarity.RARE));
 
     public static void registerItems() {
         // Items
@@ -60,6 +66,9 @@ public class ItemInit {
 
         //Armor
         Registry.register(Registry.ITEM, new Identifier(main.MOD_NAME, "gilded_netherite_helmet"), GILDED_NETHERITE_HELMET);
+        Registry.register(Registry.ITEM, new Identifier(main.MOD_NAME, "gilded_netherite_chestplate"), GILDED_NETHERITE_CHESTPLATE);
+        Registry.register(Registry.ITEM, new Identifier(main.MOD_NAME, "gilded_netherite_leggings"), GILDED_NETHERITE_LEGGINGS);
+        Registry.register(Registry.ITEM, new Identifier(main.MOD_NAME, "gilded_netherite_boots"), GILDED_NETHERITE_BOOTS);
 
     }
 
