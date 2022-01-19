@@ -5,5 +5,13 @@
   "item.workshop.gilded_netherite_pickaxe": "Gilded Netherite Pickaxe",
   "item.workshop.gilded_netherite_sword": "Gilded Netherite Sword",
 
-  "item.workshop.emerald_sword": "Emerald Sword"
+  "item.workshop.gilded_netherite_helmet": "Gilded Netherite Helmet",
+  "item.workshop.gilded_netherite_chestplate": "Gilded Netherite Chestplate",
+  "item.workshop.gilded_netherite_leggings": "Gilded Netherite Leggings",
+  "item.workshop.gilded_netherite_boots": "Gilded Netherite Boots",
+
+  "item.workshop.emerald_sword": "Emerald Sword",
+
+  "workshop.advancement.get_full_gilded_set": "High Fashion",
+  "workshop.advancement.get_full_gilded_set.desc": "Obtain a full set of Gilded Netherite Armor"
 }

@@ -1,0 +1,63 @@
+{
+  "parent": "minecraft:nether_armor",
+  "display": {
+    "title": {
+      "translate": "workshop.advancements.get_full_gilded_set"
+    },
+    "description": {
+      "translate": "workshop.advancements.get_full_gilded_set.desc"
+    },
+    "icon": {
+      "item": "workshop:gilded_netherite_helmet"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_gilded_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["workshop:gilded_netherite_helmet"]
+          }
+        ]
+      }
+    },
+    "get_gilded_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["workshop:gilded_netherite_chestplate"]
+          }
+        ]
+      }
+    },
+    "get_gilded_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["workshop:gilded_netherite_leggings"]
+          }
+        ]
+      }
+    },
+    "get_gilded_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["workshop:gilded_netherite_boots"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500
+  }
+}
