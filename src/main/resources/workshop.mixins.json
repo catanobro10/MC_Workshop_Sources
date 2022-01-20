@@ -6,8 +6,7 @@
   "mixins": [
     "PiglinBrainMixin",
     "ArmorItemMixin",
-    "EnchantmentHelperMixin",
-    "EnchantmentMixin"
+    "EnchantmentHelperMixin"
   ],
   "client": [],
   "injectors": {
