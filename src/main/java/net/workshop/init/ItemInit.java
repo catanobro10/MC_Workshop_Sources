@@ -1,15 +1,13 @@
 package net.workshop.init;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.block.Material;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
-import net.workshop.item.ArmorGildedNetherite;
-import net.workshop.item.PickaxeGildedNetheriteItem;
-import net.workshop.item.TierEmeraldItem;
-import net.workshop.item.TierGildedNetheriteItem;
+import net.workshop.item.*;
 import net.workshop.main;
 
 public class ItemInit {
@@ -33,6 +31,12 @@ public class ItemInit {
                     3,
                     -2.4F,
                     new Item.Settings().group(ItemGroup.COMBAT).rarity(Rarity.RARE));
+    public static final SpearItem FLINT_SPEAR =
+            new SpearItem(
+                    ToolMaterials.WOOD,
+                    2,
+                    -2.6F,
+                    new Item.Settings().group(ItemGroup.COMBAT));
 
     // Tools
     public static final PickaxeGildedNetheriteItem GILDED_NETHERITE_PICKAXE =
@@ -60,6 +64,7 @@ public class ItemInit {
         // Weapons
         Registry.register(Registry.ITEM, new Identifier(main.MOD_NAME, "gilded_netherite_sword"), GILDED_NETHERITE_SWORD);
         Registry.register(Registry.ITEM, new Identifier(main.MOD_NAME, "emerald_sword"), EMERALD_SWORD);
+        Registry.register(Registry.ITEM, new Identifier(main.MOD_NAME, "flint_spear"), FLINT_SPEAR);
 
         //Tools
         Registry.register(Registry.ITEM, new Identifier(main.MOD_NAME, "gilded_netherite_pickaxe"), GILDED_NETHERITE_PICKAXE);

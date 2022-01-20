@@ -3,6 +3,7 @@ package net.workshop.item;
 import com.google.common.collect.ImmutableMultimap;
 import com.google.common.collect.Multimap;
 import com.jamieswhiteshirt.reachentityattributes.ReachEntityAttributes;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.attribute.EntityAttribute;
 import net.minecraft.entity.attribute.EntityAttributeModifier;
 import net.minecraft.entity.attribute.EntityAttributes;
@@ -38,7 +39,7 @@ public class SpearItem extends SwordItem {
                         1.0D,
                         EntityAttributeModifier.Operation.ADDITION));
         builder.put(ReachEntityAttributes.ATTACK_RANGE,
-                new EntityAttributeModifier("",
+                new EntityAttributeModifier("Attack reach",
                         1.0D,
                         EntityAttributeModifier.Operation.ADDITION));
         this.attributeModifiers = builder.build();
@@ -47,5 +48,10 @@ public class SpearItem extends SwordItem {
     @Override
     public ToolMaterial getMaterial() {
         return this.spearMaterial;
+    }
+
+    @Override
+    public Multimap<EntityAttribute, EntityAttributeModifier> getAttributeModifiers(EquipmentSlot equipmentSlot) {
+        return equipmentSlot == EquipmentSlot.MAINHAND ? attributeModifiers : super.getAttributeModifiers(equipmentSlot);
     }
 }
