@@ -9,6 +9,8 @@ public class main implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
 		ItemInit.init();
+		BlockInit.init();
 	}
 }
