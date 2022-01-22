@@ -8,9 +8,9 @@
       "to": [  16, 16, 16 ],
       "faces": {
         "down":  { "texture": "workshop:block/gilded_netherite_block_ne", "cullface": "down" },
-        "up":    { "texture": "workshop:block/gilded_netherite_block_nw", "cullface": "up" },
-        "north": { "texture": "workshop:block/gilded_netherite_block_ne", "cullface": "north" },
-        "south": { "texture": "workshop:block/gilded_netherite_block_ne", "cullface": "south" },
+        "up":    { "texture": "workshop:block/gilded_netherite_block_ne", "cullface": "up" },
+        "north": { "texture": "workshop:block/gilded_netherite_block_nw", "cullface": "north" },
+        "south": { "texture": "workshop:block/gilded_netherite_block_nw", "cullface": "south" },
         "west":  { "texture": "workshop:block/gilded_netherite_block_nw", "cullface": "west" },
         "east":  { "texture": "workshop:block/gilded_netherite_block_nw", "cullface": "east" }
       }
