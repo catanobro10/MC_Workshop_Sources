@@ -1,11 +1,12 @@
-{   "parent": "block/block",
+{
+  "parent": "block/cube",
   "textures": {
     "particle": "workshop:block/gilded_netherite_block_ne",
     "up": "workshop:block/gilded_netherite_block_ne",
     "down": "workshop:block/gilded_netherite_block_ne",
     "north": "workshop:block/gilded_netherite_block_nw",
     "south": "workshop:block/gilded_netherite_block_nw",
-    "east": "workshop:block/gilded_netherite_block_nw",
-    "west": "workshop:block/gilded_netherite_block_nw"
+    "east": "workshop:block/gilded_netherite_block_ne",
+    "west": "workshop:block/gilded_netherite_block_ne"
   }
 }

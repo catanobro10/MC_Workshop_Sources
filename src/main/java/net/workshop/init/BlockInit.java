@@ -13,7 +13,12 @@ import net.workshop.main;
 
 public class BlockInit {
 
-    public static final BlockGildedNetherite GILDED_NETHERITE_BLOCK = new BlockGildedNetherite(FabricBlockSettings.of(Material.METAL).strength(4.0F, 4.0F).requiresTool());
+    public static final BlockGildedNetherite GILDED_NETHERITE_BLOCK = new BlockGildedNetherite(FabricBlockSettings
+            .of(Material.METAL)
+            .strength(4.0F)
+            .hardness(4.0F)
+            .resistance(4.0F)
+            .requiresTool());
 
     public static void registerBlocks() {
 

@@ -1,8 +1,8 @@
 {
   "variants": {
-    "facing=north": { "model": "workshop:gilded_netherite_block"},
-    "facing=east":  { "model": "workshop:gilded_netherite_block", "y":  90},
-    "facing=south": { "model": "workshop:gilded_netherite_block", "y": 180},
-    "facing=west":  { "model": "workshop:gilded_netherite_block", "y": 270}
+    "facing=north": { "model": "workshop:block/gilded_netherite_block"},
+    "facing=east":  { "model": "workshop:block/gilded_netherite_block", "y":  90},
+    "facing=south": { "model": "workshop:block/gilded_netherite_block", "y": 180},
+    "facing=west":  { "model": "workshop:block/gilded_netherite_block", "y": 270}
   }
 }
