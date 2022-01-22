@@ -18,7 +18,13 @@ public class BlockInit {
     public static void registerBlocks() {
 
         Registry.register(Registry.BLOCK, new Identifier(main.MOD_NAME, "gilded_netherite_block"), GILDED_NETHERITE_BLOCK);
-        Registry.register(Registry.ITEM, new Identifier(main.MOD_NAME, "gilded_netherite_block"), new BlockItem(GILDED_NETHERITE_BLOCK, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS).rarity(Rarity.RARE).fireproof()));
+        Registry.register(Registry.ITEM, new Identifier(main.MOD_NAME, "gilded_netherite_block"),
+                new BlockItem(GILDED_NETHERITE_BLOCK, new FabricItemSettings()
+                                .group(ItemGroup.BUILDING_BLOCKS)
+                                .rarity(Rarity.RARE)
+                                .fireproof()
+                )
+        );
     }
 
     public static void init() {
