@@ -1,19 +1,11 @@
 {   "parent": "block/block",
   "textures": {
-    "particle": "workshop:block/gilded_netherite_block_nw"
-  },
-  "elements": [
-    {
-      "from": [ 0, 0, 0 ],
-      "to": [  16, 16, 16 ],
-      "faces": {
-        "down":  { "texture": "workshop:block/gilded_netherite_block_ne", "cullface": "down" },
-        "up":    { "texture": "workshop:block/gilded_netherite_block_ne", "cullface": "up" },
-        "north": { "texture": "workshop:block/gilded_netherite_block_nw", "cullface": "north" },
-        "south": { "texture": "workshop:block/gilded_netherite_block_nw", "cullface": "south" },
-        "west":  { "texture": "workshop:block/gilded_netherite_block_nw", "cullface": "west" },
-        "east":  { "texture": "workshop:block/gilded_netherite_block_nw", "cullface": "east" }
-      }
-    }
-  ]
+    "particle": "workshop:block/gilded_netherite_block_ne",
+    "up": "workshop:block/gilded_netherite_block_ne",
+    "down": "workshop:block/gilded_netherite_block_ne",
+    "north": "workshop:block/gilded_netherite_block_nw",
+    "south": "workshop:block/gilded_netherite_block_nw",
+    "east": "workshop:block/gilded_netherite_block_nw",
+    "west": "workshop:block/gilded_netherite_block_nw"
+  }
 }

@@ -1,6 +1,9 @@
 {
+  "block.workshop.gilded_netherite_block": "Gilded Netherite Block",
+
   "item.workshop.brilliant_alloy": "Brilliant Alloy",
   "item.workshop.gilded_netherite_ingot": "Gilded Netherite Ingot",
+  "item.workshop.gilded_netherite_block": "Gilded Netherite Block",
 
   "item.workshop.gilded_netherite_pickaxe": "Gilded Netherite Pickaxe",
   "item.workshop.gilded_netherite_sword": "Gilded Netherite Sword",
