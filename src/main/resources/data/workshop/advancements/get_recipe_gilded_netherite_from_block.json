@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "workshop:gilded_netherite_ingot_from_block"
+    ]
+  },
+  "criteria": {
+    "get_gilded_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["workshop:gilded_netherite_block"]
+          }
+        ]
+      }
+    }
+  }
+}
