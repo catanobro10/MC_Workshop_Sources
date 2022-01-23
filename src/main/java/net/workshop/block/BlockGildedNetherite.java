@@ -1,4 +1,4 @@
-package net.workshop.blocks;
+package net.workshop.block;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
